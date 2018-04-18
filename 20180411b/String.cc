@@ -14,9 +14,9 @@ class String
 {
 	public:
 		String ()
-		: _pstr (new char[1])
+		: _pstr (new char[1]())//加小括号后会自动初始化为0，不必再赋0
 		{
-			*_pstr ='0';
+			//*_pstr ='0';
 			cout << "String " << endl;
 		}
 
@@ -35,10 +35,16 @@ class String
 			cout << "String(const String & rhs))" <<endl;
 		}
 	
-		String & operator = (const String & rhs)
+		String & operator = (const String & rhs)//三部曲
 		{
-			_pstr = rhs._pstr;
 			cout << "String & operator" << endl;
+			if(this != &rhs)
+			{
+				delete [] _pstr;
+				_pstr = new char[strlen(rhs._pstr) + 1]();
+				strcpy(_pstr, rhs._pstr);
+			}
+			return *this;	
 		}
 		
 		~String()

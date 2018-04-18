@@ -17,15 +17,25 @@ int test0()
 #if 0
 	cout << "sizeof(cin)" << sizeof(cin) << endl;
 	cout << "sizeof(cout)" << sizeof(cout) << endl;
-#endif
 	int a ;
 	while(cin >> a)
 	{
 		cout << "a = " << a << endl;
 	}
 	cin.clear();
-		cout << "a = " << a << endl;
+	cin.ignore(std::numeric_limits<std::streamsize>::max(),'\n');
 	
+	cout << endl;
+#endif
+	string s1;
+	while(std::getline(cin,s1))
+	{
+		cout << "s1 = " << s1 << endl;
+	}
+
+	return 0; 
+
+
 }
 
 int main()
