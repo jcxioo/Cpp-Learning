@@ -30,11 +30,11 @@ public:
 
 	void print(int x)
 	{
-		cout << "形参x = " << x << endl;
-		cout << "Example::x = " << Example::x << endl;
-		cout << "Example::x = " << this->x << endl;
-		cout << "wd::x = " << wd::x << endl;
-		cout << "全局变量x = " << ::x << endl;
+		cout << "形参x = " << x << endl; //4
+		cout << "Example::x = " << Example::x << endl;//3
+		cout << "Example::x = " << this->x << endl;//3
+		cout << "wd::x = " << wd::x << endl;//1
+		cout << "全局变量x = " << ::x << endl;//100
 	}
 
 private:

@@ -15,7 +15,7 @@ using std::string;
 class Point
 {
 public:
-	explicit  //禁止隐式转换,需要显式调用
+//	explicit  //禁止隐式转换,需要显式调用
 	Point(int ix)
 	: _ix(ix)
 	, _iy(0)
@@ -32,7 +32,7 @@ public:
 
 	void print() const
 	{
-		//LogInfo();
+//		LogInfo();
 		cout << "(" << _ix
 			 << "," << _iy
 			 << ")" << endl;
@@ -45,7 +45,7 @@ private:
  
 int main(void)
 {
-	std::string s1 = "hello,world";
+	std::string s1 = "hello,world";//相当于把const char* 转换为 std::string
 	Point pt = 1;//由其他类型转换成自定类类型--> 由构造函数完成 --> 隐式转换
 	pt.print();
 
