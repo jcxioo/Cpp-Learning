@@ -86,15 +86,15 @@ class String
 		}
 		const char & operator[](size_t index) const
 		{
-			static char Strnull='\0';
-			if(index < strlen(_pstr))
-			{
+			//static char Strnull='\0';
+		//	if(index < strlen(_pstr))
+		//	{
 				return _pstr[index];
-			}
-			else{
-			cout << "下标越界" << endl;
-			return Strnull;	
-			}	
+		//	}
+		//	else{
+		//	cout << "下标越界" << endl;
+		//	return Strnull;	
+			//}	
 		}
 		
 		std::size_t size() const
