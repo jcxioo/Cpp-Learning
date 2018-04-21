@@ -1,0 +1,151 @@
+[2018-04-20 07:12:56,412] [DEBUG] [templateStack.cc:Stack:19] Stack()
+[2018-04-20 07:12:56,415] [INFO] [templateStack.cc:main:88] Stack is empty？1
+[2018-04-20 07:12:56,416] [INFO] [templateStack.cc:main:90] Stack is empty？0
+[2018-04-20 07:12:56,416] [INFO] [templateStack.cc:push:59] stack is full.
+[2018-04-20 07:12:56,416] [INFO] [templateStack.cc:main:97] Stack is full？1
+[2018-04-20 07:12:56,416] [INFO] [templateStack.cc:main:100] 10
+[2018-04-20 07:12:56,418] [INFO] [templateStack.cc:main:100] 9
+[2018-04-20 07:12:56,418] [INFO] [templateStack.cc:main:100] 8
+[2018-04-20 07:12:56,418] [INFO] [templateStack.cc:main:100] 7
+[2018-04-20 07:12:56,419] [INFO] [templateStack.cc:main:100] 6
+[2018-04-20 07:12:56,419] [INFO] [templateStack.cc:main:100] 5
+[2018-04-20 07:12:56,419] [INFO] [templateStack.cc:main:100] 4
+[2018-04-20 07:12:56,419] [INFO] [templateStack.cc:main:100] 3
+[2018-04-20 07:12:56,419] [INFO] [templateStack.cc:main:100] 2
+[2018-04-20 07:12:56,426] [INFO] [templateStack.cc:main:100] 1
+[2018-04-20 07:12:56,426] [INFO] [templateStack.cc:main:100] 1
+[2018-04-20 08:19:09,153] [DEBUG] [templateStack.cc:Stack:19] :Stack()
+[2018-04-20 08:19:09,154] [INFO] [templateStack.cc:main:88] :Stack is empty？1
+[2018-04-20 08:19:09,159] [INFO] [templateStack.cc:main:90] :Stack is empty？0
+[2018-04-20 08:19:09,159] [INFO] [templateStack.cc:push:59] :stack is full.
+[2018-04-20 08:19:09,159] [INFO] [templateStack.cc:push:59] :stack is full.
+[2018-04-20 08:19:09,159] [INFO] [templateStack.cc:main:97] :Stack is full？1
+[2018-04-20 08:19:09,168] [INFO] [templateStack.cc:main:100] :9
+[2018-04-20 08:19:09,168] [INFO] [templateStack.cc:main:100] :8
+[2018-04-20 08:19:09,168] [INFO] [templateStack.cc:main:100] :7
+[2018-04-20 08:19:09,168] [INFO] [templateStack.cc:main:100] :6
+[2018-04-20 08:19:09,168] [INFO] [templateStack.cc:main:100] :5
+[2018-04-20 08:19:09,168] [INFO] [templateStack.cc:main:100] :4
+[2018-04-20 08:19:09,168] [INFO] [templateStack.cc:main:100] :3
+[2018-04-20 08:19:09,168] [INFO] [templateStack.cc:main:100] :2
+[2018-04-20 08:19:09,168] [INFO] [templateStack.cc:main:100] :1
+[2018-04-20 08:19:09,168] [INFO] [templateStack.cc:main:100] :1
+[2018-04-20 08:19:13,419] [DEBUG] [templateStack.cc:Stack:19] :Stack()
+[2018-04-20 08:19:13,419] [INFO] [templateStack.cc:main:88] :Stack is empty？1
+[2018-04-20 08:19:13,419] [INFO] [templateStack.cc:main:90] :Stack is empty？0
+[2018-04-20 08:19:13,419] [INFO] [templateStack.cc:push:59] :stack is full.
+[2018-04-20 08:19:13,419] [INFO] [templateStack.cc:push:59] :stack is full.
+[2018-04-20 08:19:13,419] [INFO] [templateStack.cc:main:97] :Stack is full？1
+[2018-04-20 08:19:13,419] [INFO] [templateStack.cc:main:100] :9
+[2018-04-20 08:19:13,419] [INFO] [templateStack.cc:main:100] :8
+[2018-04-20 08:19:13,421] [INFO] [templateStack.cc:main:100] :7
+[2018-04-20 08:19:13,422] [INFO] [templateStack.cc:main:100] :6
+[2018-04-20 08:19:13,422] [INFO] [templateStack.cc:main:100] :5
+[2018-04-20 08:19:13,422] [INFO] [templateStack.cc:main:100] :4
+[2018-04-20 08:19:13,422] [INFO] [templateStack.cc:main:100] :3
+[2018-04-20 08:19:13,422] [INFO] [templateStack.cc:main:100] :2
+[2018-04-20 08:19:13,422] [INFO] [templateStack.cc:main:100] :1
+[2018-04-20 08:19:13,422] [INFO] [templateStack.cc:main:100] :1
+[2018-04-20 08:19:47,772] [DEBUG] [templateStack.cc:Stack:19] :Stack()
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:88] :Stack is empty？1
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:90] :Stack is empty？0
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:push:59] :stack is full.
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:push:59] :stack is full.
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:97] :Stack is full？1
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:100] :9
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:100] :8
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:100] :7
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:100] :6
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:100] :5
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:100] :4
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:100] :3
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:100] :2
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:100] :1
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:100] :1
+[2018-04-20 08:19:47,776] [INFO] [templateStack.cc:main:103] :Stack is empty？1
+[2018-04-20 08:28:43,909] [DEBUG] [templateStack.cc:Stack:19] :Stack()
+[2018-04-20 08:28:43,909] [INFO] [templateStack.cc:main:88] :Stack is empty？1
+[2018-04-20 08:28:43,915] [INFO] [templateStack.cc:main:90] :Stack is empty？0
+[2018-04-20 08:28:43,916] [INFO] [templateStack.cc:push:59] :stack is full.
+[2018-04-20 08:28:43,916] [INFO] [templateStack.cc:push:59] :stack is full.
+[2018-04-20 08:28:43,916] [INFO] [templateStack.cc:main:97] :Stack is full？1
+[2018-04-20 08:28:43,916] [INFO] [templateStack.cc:main:100] :9
+[2018-04-20 08:28:43,916] [INFO] [templateStack.cc:main:100] :8
+[2018-04-20 08:28:43,924] [INFO] [templateStack.cc:main:100] :7
+[2018-04-20 08:28:43,924] [INFO] [templateStack.cc:main:100] :6
+[2018-04-20 08:28:43,925] [INFO] [templateStack.cc:main:100] :5
+[2018-04-20 08:28:43,925] [INFO] [templateStack.cc:main:100] :4
+[2018-04-20 08:28:43,925] [INFO] [templateStack.cc:main:100] :3
+[2018-04-20 08:28:43,925] [INFO] [templateStack.cc:main:100] :2
+[2018-04-20 08:28:43,925] [INFO] [templateStack.cc:main:100] :1
+[2018-04-20 08:28:43,925] [INFO] [templateStack.cc:main:100] :1
+[2018-04-20 08:28:43,925] [INFO] [templateStack.cc:main:103] :Stack is empty？1
+[2018-04-20 09:49:46,713] [DEBUG] [templateQueue.cc:Queue:22] :Queue()
+[2018-04-20 09:49:46,713] [INFO] [templateQueue.cc:test0:101] :Queue is empty? 1
+[2018-04-20 09:49:46,718] [INFO] [templateQueue.cc:test0:103] :Queue is empty? 0
+[2018-04-20 09:49:46,723] [INFO] [templateQueue.cc:push:66] :Queue is full.
+[2018-04-20 09:49:46,723] [INFO] [templateQueue.cc:push:66] :Queue is full.
+[2018-04-20 09:49:46,727] [INFO] [templateQueue.cc:test0:109] :Queue is full? 1
+[2018-04-20 09:49:46,727] [INFO] [templateQueue.cc:test0:113] :0
+[2018-04-20 09:49:46,727] [INFO] [templateQueue.cc:test0:113] :0
+[2018-04-20 09:49:46,727] [INFO] [templateQueue.cc:test0:113] :0
+[2018-04-20 09:49:46,727] [INFO] [templateQueue.cc:test0:113] :0
+[2018-04-20 09:49:46,727] [INFO] [templateQueue.cc:test0:113] :0
+[2018-04-20 09:49:46,727] [INFO] [templateQueue.cc:test0:113] :0
+[2018-04-20 09:49:46,729] [INFO] [templateQueue.cc:test0:113] :0
+[2018-04-20 09:49:46,731] [INFO] [templateQueue.cc:test0:113] :0
+[2018-04-20 09:49:46,731] [INFO] [templateQueue.cc:test0:113] :0
+[2018-04-20 09:49:46,734] [INFO] [templateQueue.cc:test0:116] :Queue is empty? 1
+[2018-04-20 09:49:46,735] [DEBUG] [templateQueue.cc:~Queue:44] :~Queue()
+[2018-04-20 09:50:26,265] [DEBUG] [templateQueue.cc:Queue:22] :Queue()
+[2018-04-20 09:50:26,266] [INFO] [templateQueue.cc:test0:101] :Queue is empty? 1
+[2018-04-20 09:50:26,266] [INFO] [templateQueue.cc:test0:103] :Queue is empty? 0
+[2018-04-20 09:50:26,267] [INFO] [templateQueue.cc:push:66] :Queue is full.
+[2018-04-20 09:50:26,267] [INFO] [templateQueue.cc:push:66] :Queue is full.
+[2018-04-20 09:50:26,267] [INFO] [templateQueue.cc:test0:109] :Queue is full? 1
+[2018-04-20 09:50:26,267] [INFO] [templateQueue.cc:test0:113] :9
+[2018-04-20 09:50:26,267] [INFO] [templateQueue.cc:test0:113] :8
+[2018-04-20 09:50:26,267] [INFO] [templateQueue.cc:test0:113] :7
+[2018-04-20 09:50:26,267] [INFO] [templateQueue.cc:test0:113] :6
+[2018-04-20 09:50:26,267] [INFO] [templateQueue.cc:test0:113] :5
+[2018-04-20 09:50:26,268] [INFO] [templateQueue.cc:test0:113] :4
+[2018-04-20 09:50:26,268] [INFO] [templateQueue.cc:test0:113] :3
+[2018-04-20 09:50:26,268] [INFO] [templateQueue.cc:test0:113] :2
+[2018-04-20 09:50:26,268] [INFO] [templateQueue.cc:test0:113] :1
+[2018-04-20 09:50:26,268] [INFO] [templateQueue.cc:test0:116] :Queue is empty? 1
+[2018-04-20 09:50:26,268] [DEBUG] [templateQueue.cc:~Queue:44] :~Queue()
+[2018-04-20 10:01:52,657] [DEBUG] [templateQueue.cc:Queue:22] :Queue()
+[2018-04-20 10:01:52,657] [INFO] [templateQueue.cc:test0:101] :Queue is empty? 1
+[2018-04-20 10:01:52,658] [INFO] [templateQueue.cc:test0:103] :Queue is empty? 0
+[2018-04-20 10:01:52,658] [INFO] [templateQueue.cc:push:66] :Queue is full.
+[2018-04-20 10:01:52,658] [INFO] [templateQueue.cc:push:66] :Queue is full.
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test0:109] :Queue is full? 1
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test0:113] :9
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test0:113] :8
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test0:113] :7
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test0:113] :6
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test0:113] :5
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test0:113] :4
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test0:113] :3
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test0:113] :2
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test0:113] :1
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test0:116] :Queue is empty? 1
+[2018-04-20 10:01:52,667] [DEBUG] [templateQueue.cc:~Queue:44] :~Queue()
+[2018-04-20 10:01:52,667] [DEBUG] [templateQueue.cc:Queue:22] :Queue()
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test1:122] :Queue is empty? 1
+[2018-04-20 10:01:52,667] [INFO] [templateQueue.cc:test1:124] :Queue is empty? 0
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:push:66] :Queue is full.
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:push:66] :Queue is full.
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:push:66] :Queue is full.
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:test1:130] :Queue is full? 1
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:test1:134] :II
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:test1:134] :HH
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:test1:134] :GG
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:test1:134] :FF
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:test1:134] :EE
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:test1:134] :DD
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:test1:134] :CC
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:test1:134] :BB
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:test1:134] :haha
+[2018-04-20 10:01:52,668] [INFO] [templateQueue.cc:test1:137] :Queue is empty? 1
+[2018-04-20 10:01:52,668] [DEBUG] [templateQueue.cc:~Queue:44] :~Queue()

@@ -11,6 +11,8 @@ using std::endl;
 
 class String
 {
+
+	class 
 	public:
 		String();
 		String(const char *);
