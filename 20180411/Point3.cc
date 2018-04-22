@@ -27,6 +27,7 @@ public:
 	{
 		cout << "Point(int,int)" << endl;
 		//_ix = ix;//赋值操作
+
 		//_iy = iy;
 	}
 

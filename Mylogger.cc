@@ -46,7 +46,7 @@ Mylogger::Mylogger()
 	log4cpp::OstreamAppender * ostreamAppender = new log4cpp::OstreamAppender("ostreamAppender", &cout);
 	ostreamAppender->setLayout(pt1);
 
-	log4cpp::FileAppender * fileAppender = new log4cpp::FileAppender("fileAppender", "debug.log");
+	log4cpp::FileAppender * fileAppender = new log4cpp::FileAppender("fileAppender", "wangdao.log");
 	fileAppender->setLayout(pt2);
 
 	_root.addAppender(ostreamAppender);

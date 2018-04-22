@@ -11,8 +11,23 @@ using std::endl;
 
 class String
 {
+	class CharProxy
+	{
+		public:
+			CharProxy(size_t idx, String & self)
+			: _idx(idx)
+			, _self(self)
+			{}
 
-	class 
+			operator char (){
+				return _self._pstr[_idx];
+			}
+
+			char & operator = (const char & ch);
+		private:
+			size_t _idx;
+			String & _self;
+	};
 	public:
 		String();
 		String(const char *);
@@ -24,8 +39,9 @@ class String
 		{
 			return _pstr[idx];
 		}
-		char & operator[](size_t idx);
-
+	//	char & operator[](size_t idx);
+		CharProxy operator [] (size_t idx);
+	
 		size_t size()
 		{
 			return strlen(_pstr);
@@ -35,7 +51,7 @@ class String
 			return _pstr;
 		}
 		 
-		size_t refcount()
+		size_t refcount() const
 		{
 			return ((int *)(_pstr - 4))[0];
 		}
@@ -107,7 +123,7 @@ String::~String()
 {
 	release();
 	cout << "~String()" << endl;
-}
+}	
 
 std::ostream & operator << (std::ostream & os,const String & rhs) 
 {
@@ -115,17 +131,22 @@ std::ostream & operator << (std::ostream & os,const String & rhs)
 		return os;
 }
 
-char & String::operator[](size_t idx)
+String::CharProxy String::operator [](size_t idx)
 {
-	if(refcount()>1)
+	return CharProxy(idx,*this);
+}
+char & String::CharProxy::operator=(const char & ch)
+{
+	if(_self.refcount()>1)
 	{
-		decreaseRefcount();
-		char * ptmp = new char[size()+5]();
-		strcpy(ptmp+4,_pstr);
-		_pstr = ptmp +4;
-		initRefcount();
+		_self.decreaseRefcount();
+		char * ptmp = new char[_self.size()+5]();
+		strcpy(ptmp+4,_self._pstr);
+		_self._pstr = ptmp +4;
+		_self.initRefcount();
 	}
-	return _pstr[idx];
+	_self._pstr[_idx] = ch;
+	return _self._pstr[_idx];
 }
 
 int main(void)
@@ -162,8 +183,11 @@ int main(void)
 	cout << "s5 = " << s5 << endl;
 	printf("s3'addr = %p\n",s3.c_str());
 	printf("s5'addr = %p\n",s5.c_str());
-	
 
+	cout << "读操作 s5[0] = " << s5[0] << endl; 
+	cout << "s5 = " << s5 << endl;
+	printf("s5'addr = %p\n",s5.c_str());
+	
 	return 0;
 }
 

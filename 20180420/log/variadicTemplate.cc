@@ -61,6 +61,7 @@ T sum(T t, Args... args)
 	return t + sum(args...);//
 }
 
+
 void test2(void)
 {
 	int ret = sum(1, "hello", 3, 4);
