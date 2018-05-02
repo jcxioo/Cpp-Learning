@@ -4,8 +4,7 @@
  /// @date    2018-04-16 11:04:56
  ///
 
-#include <string.h>
- 
+#include <string.h> 
 #include <iostream>
 #include <vector>
 #include <string>
